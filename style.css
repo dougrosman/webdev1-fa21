@@ -1,7 +1,69 @@
-body {
-  font-family: Arial;
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap');
+
+:root {
+  --hahmlet: 'Hahmlet', serif;
+  --s1: hsl(0, 100%, 94%);
+  --s2: hsl(20, 100%, 94%);
+  --s3: hsl(40, 100%, 94%);
+  --s4: hsl(60, 100%, 94%);
+  --s5: hsl(80, 100%, 94%);
+  --s6: hsl(100, 100%, 94%);
+  --s7: hsl(120, 100%, 94%);
+  --s8: hsl(140, 100%, 94%);
+  --s9: hsl(160, 100%, 94%);
+  --s10: hsl(180, 100%, 94%);
+  --s11: hsl(200, 100%, 94%);
+  --s12: hsl(220, 100%, 94%);
+  --s13: hsl(240, 100%, 94%);
+  --s14: hsl(260, 100%, 94%);
+  --s15: hsl(280, 100%, 94%);
 }
+
+* {margin-bottom: 0;}
+
+body {
+  font-family: var(--hahmlet);
+  font-weight: 300;
+  margin-right: 0;
+}
+
+h1 {font-weight: 600;}
+h2 {font-weight: 525;}
+h3 {font-weight: 450;}
+h4 {font-weight: 375;}
+h5 {font-weight: 300;}
+h6 {font-weight: 225;}
 
 nav > ul > li {
   list-style-type: none;
+  padding: 1em;
+  font-size: 2rem;
+}
+
+nav > ul > li > a {
+  font-weight: 500;
+}
+
+nav > ul > li > a:hover {
+  color: cornflowerblue;
+}
+
+nav > ul > li:nth-child(1) { background: var(--s1); }
+nav > ul > li:nth-child(2) { background: var(--s2); }
+nav > ul > li:nth-child(3) { background: var(--s3); }
+nav > ul > li:nth-child(4) { background: var(--s4); }
+nav > ul > li:nth-child(5) { background: var(--s5); }
+nav > ul > li:nth-child(6) { background: var(--s6); }
+nav > ul > li:nth-child(7) { background: var(--s7); }
+nav > ul > li:nth-child(8) { background: var(--s8); }
+nav > ul > li:nth-child(9) { background: var(--s9); }
+nav > ul > li:nth-child(10) { background: var(--s10); }
+nav > ul > li:nth-child(11) { background: var(--s11); }
+nav > ul > li:nth-child(12) { background: var(--s12); }
+nav > ul > li:nth-child(13) { background: var(--s13); }
+nav > ul > li:nth-child(14) { background: var(--s14); }
+nav > ul > li:nth-child(15) { background: var(--s15); }
+
+.session-nav {
+  margin-left: -3rem;
 }
