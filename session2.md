@@ -124,10 +124,10 @@ Some common elements and their tags
 
 ### 3. Block-level elements vs. Inline-level elements
 
-Each HTML element is either block or inline (there's inline-block, but we'll save that for another day). An elements status as block or inline determines how the element will behave in the *Document Flow.* The *Document Flow* describes how elements flow visually from the top to bottom of your page.
+Each HTML element is either block or inline (there's inline-block, but we'll save that for another day). An elements status as block or inline determines how the element will behave in the ***Document Flow**.* The ***Document Flow*** describes how elements flow visually from the top to the bottom of your page.
 
 - **Block-level elements:** Most HTML elements are block-level. These take up the entire width of a row, even if the content by itself isn't wide enough to fill up a row. These elements get an entire row to themselves. (e.g. `<h1>`, `<p>`, `<ul>`, `<li>`, etc.)
-- **Inline-level elements:** These elements only take up as much space as their content, and can exist *in line* with other elements.
+- **Inline-level elements:** These elements only take up as much space as their content, and can exist *inline* with other elements. (e.g. `<a>`, `<img>`)
 
 ### [Part 4]
 
