@@ -122,6 +122,15 @@ Some common elements and their tags
 - `<li>` - list item
 - `<img>` - image
 
+#### **Attribute examples:**
+`<a href="https://w3schools.com">Learn HTML on w3schools.com</a>`
+
+- The **attribute** for this link is the `href`, which is short for "hypertext reference." Put the destination link (the hyperlink) in the href.
+
+`<img src="https://picsum.photos/600/400" alt="A stock image">`
+
+- The **attributes** for these images are the `src` (the link to the image file) and the `alt`, which is where you put a short written description of the contents of the image. 
+
 ### 3. Block-level elements vs. Inline-level elements
 
 Each HTML element is either block or inline (there's inline-block, but we'll save that for another day). An elements status as block or inline determines how the element will behave in the ***Document Flow**.* The ***Document Flow*** describes how elements flow visually from the top to the bottom of your page.
@@ -129,7 +138,9 @@ Each HTML element is either block or inline (there's inline-block, but we'll sav
 - **Block-level elements:** Most HTML elements are block-level. These take up the entire width of a row, even if the content by itself isn't wide enough to fill up a row. These elements get an entire row to themselves. (e.g. `<h1>`, `<p>`, `<ul>`, `<li>`, etc.)
 - **Inline-level elements:** These elements only take up as much space as their content, and can exist *inline* with other elements. (e.g. `<a>`, `<img>`)
 
-### [Part 4]
+### 4. Semantic HTML and Accessibility
+
+1. 
 
 ### [Part 5]
 
