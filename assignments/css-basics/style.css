@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(20, 20, 20);
+    color: rgb(240, 240, 240);
+}
+
+header {
+    text-align: center;
+    background: rgb(50, 50, 50);
+    padding: 1rem;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+nav a {
+    margin: 1rem;
+    color: rgb(148, 168, 255);
+    font-weight: 500;
+    line-height: 2em;
+}
+
+nav a:hover {
+  color: rgb(64, 233, 128);  
+}
+
+main {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 0 .5rem;
+}
+
+section {
+    margin: 20rem 0;
+    border-left: .5rem solid rgb(240, 240, 240);
+}
+
+section h3 {
+    background: rgb(90, 90, 90);
+    margin: 0;
+    padding: 1rem;
+}
+
+section p {
+    background: rgb(60, 60, 60);
+    margin: 0;
+    padding: 1rem;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    background: rgb(50, 50, 50);
+    color: white;
+    padding: 2rem;
+}
