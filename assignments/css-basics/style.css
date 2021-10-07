@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Stick No Bills', sans-serif;
+    
+    background: rgb(20, 20, 20);
+    color: rgb(240, 240, 240);
+}
+
+header {
+    text-align: center;
+    background: rgb(40, 40, 40);
+    padding: 2rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header h2 {
+    font-weight: 400;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: rgb(88, 209, 99);
+    font-size: 1.5rem;
+    line-height: 2em;
+}
+
+nav a:hover {
+    color: rgb(138, 159, 255);
+}
+
+main {
+    padding: .5rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+
+section {
+    margin: 8rem 0;
+    border-left: .5rem solid rgb(240, 240, 240);
+}
+
+section h3 {
+    font-style: italic;
+    background: rgb(60, 60, 60);
+    margin: 0;
+    padding: .5rem;
+}
+
+section p {
+    background: rgb(90, 90, 90);
+    margin: 0;
+    padding: .5rem;
+}
+
+img {
+    width: 100%;
+    /* max-width: 30rem; */
+    margin: 0 auto;
+    display: block;
+}
+
+footer {
+    background: rgb(40, 40, 40);
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 2rem;
+}
