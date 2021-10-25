@@ -1,0 +1,44 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    border: .5rem solid red;
+    margin: .5em;
+}
+
+.absolute {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: blue;
+
+    width: 25%;
+    height: 25%;
+    top: 100px;
+    left: 100px;
+}
+
+.outer-box {
+    width: 200px;
+    height: 200px;
+    background: lightgreen;
+    position: relative;
+}
+
+.inner-box {
+    background: yellow;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fixed {
+    width: 10vw;
+    height: 10vh;
+    background: pink;
+    position: fixed;
+    top: 0;
+    right: 0;
+}

@@ -5,3 +5,7 @@ h1 {
 img {
     max-width: 10rem;
 }
+
+video {
+    max-width: 15rem;
+}
