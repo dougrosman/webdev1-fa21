@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background: burlywood;
+    max-width: 30rem;
+}
+
+
+main {
+    max-width: 50rem;
+    margin: 0 auto;
+    background: whitesmoke;
+}
+
+nav a {
+    margin: 1 rem;
+}
+
+section {
+    background: wheat;
+}
+
+section h3 {
+    background:wheat
+}
+
+section p {
+    background:wheat;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+footer {
+    background: white;
+    text-align: center;
+}
