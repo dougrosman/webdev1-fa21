@@ -109,6 +109,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .hero-background {
   background-image: url("images/hamster1-2x.jpg");
   background-position: center;
@@ -189,7 +190,7 @@ main {
 }
 
 .info-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   box-shadow: 0 15px 20px -16px;
 }
 
