@@ -1,0 +1,13 @@
+.site-title {
+    font-family: Arial;
+    font-size: 3rem;
+}
+
+.page-title {
+    font-size: 2rem;
+    color: blue;
+}
+
+nav a {
+    font-size: 4rem;
+}
