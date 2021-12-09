@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .site-title {
     font-family: Arial;
     font-size: 3rem;
@@ -10,4 +16,23 @@
 
 nav a {
     font-size: 4rem;
+}
+
+.hero-container {
+    width: 100vw;
+    height: 100vh;
+    background: lightgray;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-bg {
+    background-image: url("//picsum.photos/id/210/1920/1080")
+}
+
+.about-bg {
+    background-image: url("//picsum.photos/id/211/1920/1080")
 }
